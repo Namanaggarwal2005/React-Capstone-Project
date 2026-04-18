@@ -49,7 +49,7 @@ class AuthService{
             }else{
                 return null;
             }
-        }catch(exception){
+        }catch(error){
             throw error;
         }
     }
